@@ -2,6 +2,8 @@
 
 Книжный магазинчик с использованием Vue/Vuex
 
+https://radaana.github.io/Cats-shop/public/index.html
+
 ## Project setup
 ```
 npm install
