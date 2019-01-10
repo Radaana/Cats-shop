@@ -2,7 +2,7 @@
 
 Книжный магазинчик с использованием Vue/Vuex
 
-https://radaana.github.io/Cats-shop/public/index.html
+https://radaana.github.io/Cats-shop/dist/index.html
 
 ## Project setup
 ```
