@@ -6,7 +6,7 @@ let state = {
       author: 'С. Макконнелл',
       price: 900,
       category: 1,
-      stock: 0,
+      stock: 3,
       pic: '../assets/book1.jpg'
     },
     {
@@ -15,7 +15,7 @@ let state = {
       author: 'Д. Браун',
       price: 450,
       category: 0,
-      stock: 0,
+      stock: 4,
       pic: ''
     },
     {
@@ -24,7 +24,7 @@ let state = {
       author: 'Ч. Петцольд',
       price: 860,
       category: 1,
-      stock: 0,
+      stock: 5,
       pic: ''
     },
     {
