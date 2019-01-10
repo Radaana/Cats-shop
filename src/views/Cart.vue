@@ -3,7 +3,6 @@
     .cart__header
       h2.cart__title Корзина
       router-link.cart__button(to="/") Назад к выбору книг
-      button.cart__button(v-if="this.getCart.length" @click="removeZeroQuantity" ref="zeroButton") Удалить с количеством 0
     .cart__table(v-if="this.getCart.length")
       .table
         .table__row
@@ -55,7 +54,6 @@ export default {
       'getTotalAmount'
     ]),
     ...mapActions([
-      'removeItemsFromCart',
       'changeQuantityInCart'
     ]),
     totalAmount () {
@@ -98,10 +96,6 @@ export default {
         number: number
       }
       this.$store.dispatch('changeQuantityInCart', payload)
-    },
-    removeZeroQuantity () {
-      this.$store.dispatch('removeItemsFromCart')
-      this.$refs.zeroButton.blur()
     }
   }
 }
